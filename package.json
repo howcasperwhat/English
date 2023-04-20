@@ -1,0 +1,32 @@
+{
+  "name": "english",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howcasperwhat/English.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howcasperwhat/English/issues"
+  },
+  "homepage": "https://github.com/howcasperwhat/English#readme",
+  "devDependencies": {
+    "unocss": "^0.51.5",
+    "vitepress": "^1.0.0-alpha.73",
+    "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "markdown-it-mathjax3": "^4.3.2"
+  }
+}
