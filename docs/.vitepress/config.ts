@@ -1,13 +1,12 @@
 import mathjax3 from 'markdown-it-mathjax3';
 import { defineConfig } from 'vitepress'
 import Unocss from 'unocss/vite'
-
 const customElements = ['mjx-container'];
-
 export default defineConfig({
   base: '/English/',
   title: 'English Note',
   description: 'English Note.',
+  appearance: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['script', { async: '', src: "//finicounter.eu.org/finicounter.js" }]
@@ -15,6 +14,10 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(mathjax3);
+    },
+    theme: {
+      light: 'vitesse-light',
+      dark: 'vitesse-dark',
     },
   },
   vue: {
