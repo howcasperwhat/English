@@ -1,0 +1,6 @@
+:root {
+  --word-green: var(--vp-c-green);
+  --word-blue: var(--vp-c-blue);
+  --word-red: var(--vp-c-red);
+  --word-yellow: var(--vp-c-yellow-light);
+}

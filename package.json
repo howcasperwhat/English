@@ -23,6 +23,7 @@
   "homepage": "https://github.com/howcasperwhat/English#readme",
   "devDependencies": {
     "@types/nprogress": "^0.2.0",
+    "naive-ui": "^2.34.3",
     "unocss": "^0.51.5",
     "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.47"

@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import './scroll-bar.css'
 import './image.css'
 import './progress.css'
+import './custom.css'
 import 'uno.css'
 import NProgress from 'nprogress'
 NProgress.configure({ showSpinner: false })
