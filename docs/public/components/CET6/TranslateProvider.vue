@@ -17,8 +17,6 @@ onMounted(() => {
         icon: () => h(WordIcon as Component, { source: word?.source }),
         title: () => h(WordTitle as Component, { word: word?.word, phonetic: word?.phonetic }),
         content: () => h(WordContent as Component, { word: word }),
-        closable: false,
-        maskClosable: true,
       })
     }
   })

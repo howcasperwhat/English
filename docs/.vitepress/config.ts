@@ -9,7 +9,7 @@ export default defineConfig({
   appearance: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // ['script', { async: '', src: "//finicounter.eu.org/finicounter.js" }]
+    ['script', { async: '', src: "//finicounter.eu.org/finicounter.js" }]
   ],
   markdown: {
     config: (md) => {
