@@ -5,7 +5,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <span text-3 flex="~ items-center">
+  <span text-3 flex="~ items-center justify-center" w-8 select-none>
     {{ props.source }}
   </span>
 </template>

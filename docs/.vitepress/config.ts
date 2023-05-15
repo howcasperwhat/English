@@ -48,7 +48,10 @@ export default defineConfig({
           {
             text: 'article 1',
             link: '/CET6/article-1.md'
-          },
+          }, {
+            text: 'article 2',
+            link: '/CET6/article-2.md'
+          }
         ]
       }
     ],

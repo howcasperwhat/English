@@ -12,12 +12,12 @@ const props = defineProps<{
       {{ props.word }}
     </span>
     <br />
-    <span v-if="props.phonetic.uk">
-      <span>英</span>
+    <span v-if="props.phonetic.uk" c-gray>
+      <span p-r-2>us:</span>
       <span>[ {{ props.phonetic.uk }} ]</span>
     </span>
-    <span v-if="props.phonetic.us">
-      <span>美</span>
+    <span v-if="props.phonetic.us" c-gray>
+      <span p-r-2>uk:</span>
       <span>[ {{ props.phonetic.us }} ]</span>
     </span>
   </div>

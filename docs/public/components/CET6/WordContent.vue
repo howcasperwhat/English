@@ -4,7 +4,10 @@ const props = defineProps<{
   word: WordProps
 }>()
 function highlightWord(sentence: string): string {
-  return sentence.replace(new RegExp('' + props.word.word, 'g'), `<span c="$word-yellow" text-w-6>${props.word.word}</span>`)
+  const patten = new RegExp('' + props.word.word, 'gi')
+  const value = sentence.match(patten)
+  if (!value) return sentence
+  return sentence.replace(patten, `<span c="$word-yellow" text-w-6>$&</span>`)
 }
 </script>
 
@@ -20,7 +23,7 @@ function highlightWord(sentence: string): string {
       <li v-for="item, key in props.word.sentence" text="4" children-p-r-1>
         <span v-html="highlightWord(key.toString())" />
         <br />
-        <span c="$word-blue" v-text="item" />
+        <span v-text="item" />
       </li>
     </ol>
   </div>

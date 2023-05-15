@@ -1,17 +1,13 @@
----
-title: 21 06 2 P3 S1
-lang: zh-CN
----
 <style scope>
 strong, b { color: var(--vp-c-yellow-light); cursor: pointer; }
 </style>
 <script setup lang='ts'>
+import words from '../public/assets/CET6/article-1'
 import { useData } from 'vitepress'
 import { computed } from 'vue'
 import { NDialogProvider, lightTheme, darkTheme } from 'naive-ui'
 import { default as NConfigProvider } from 'naive-ui/lib/config-provider/src/ConfigProvider'
 import TranslateProvider from '../public/components/CET6/TranslateProvider.vue'
-import words from '../public/assets/CET6/article-1'
 const { isDark } = useData()
 const theme = computed(() => isDark.value ? darkTheme : lightTheme)
 </script>
