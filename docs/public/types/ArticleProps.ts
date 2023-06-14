@@ -1,13 +1,13 @@
 export interface Phonetic {
-  uk: String,
-  us: String
+  uk?: String,
+  us?: String
 }
 
 export interface WordProps {
   word: String,
-  phonetic: Phonetic,
+  phonetic?: Phonetic,
   source: String,
-  ch: Map<String, Array<String>>
+  ch?: Map<String, Array<String>>
   sentence: Map<String, String>
 }
 

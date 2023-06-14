@@ -12,7 +12,7 @@ const { isDark } = useData()
 const theme = computed(() => isDark.value ? darkTheme : lightTheme)
 </script>
 
-# 19 06 1 P3 S1
+# 19 06 1 P3 A1
 **Pasta** is no longer off the menu, after a new **review** of studies suggested that the **carbohydrate** can form part of a healthy diet, and even help people lose weight. For years, nutritionists have recommended that pasta be kept to a minimum , to cut calories, prevent fat build-up and stop blood shooting up sugar.  
 The low-carbohydrate food **movement** gave birth to such **diets** as the Atkins, Paleo and Keto, which advised swapping foods like **bread**, pasta and potatoes for vegetables, fish and meat. More recently the trend of swapping **spaghetti** for vegetables has been **championed** by clean-eating experts.  
 But now a systematic review and analysis of 30 studies by Canadian researchers found that not only does pasta not cause weight gain, but three **meals** a week can help people drop more than half a kilogram over four months. The reviewers found that pasta had been unfairly **demonized** because it had been **lumping** in with other, more fat-promoting carbohydrates.  

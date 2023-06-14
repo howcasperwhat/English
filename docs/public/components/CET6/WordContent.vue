@@ -13,7 +13,7 @@ function highlightWord(sentence: string): string {
 
 <template>
   <div children-p-l-4>
-    <ul p-l-0>
+    <ul p-l-0 v-if="props.word.ch">
       <li v-for="item, key in props.word.ch" text="4" children-p-r-1>
         <span c="$word-green" text-w-6 v-text="key" />
         <span v-html="item.join('；')" />
